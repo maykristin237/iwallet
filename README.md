@@ -23,6 +23,7 @@
 | 庫                           | 功能                |
 | --------------------------   | --------------      |
 | **dio**                      | **網路框架**        |
+| **stack_trace**              | **LOG相關**         |
 | **shared_preferences**       | **本地數據緩存**    |
 | **flutter_redux**            | **redux**           |
 | **device_info**              | **設備資訊**        |
@@ -32,9 +33,10 @@
 | **nfc_manager**              | **nfc管理工具**     |
 | **path_provider**            | **本地路徑**        |
 | **permission_handler**       | **許可權**          |
-| **qr_flutter**               | **狀態管理和共用**  |
+| **qr_flutter**               | **二維條碼**        |
 | **multi_image_picker_view**  | **圖片獲取**        |
 | **flutter_spinkit**          | **載入框樣式**      |
+| **package_info_plus**        | **package包信息**   |
   
 #### 相關接口:  (明細請查看: 相關參考文檔)
 
