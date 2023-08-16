@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01734E7E052A54C38CB536D8FA631250 /* Pods-walletLibTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C3FD293AA31B400541F9DF90A092BB /* Pods-walletLibTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E65614B1B277438245D4C43556F011A9 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0966F40679D4688CA562B9E7E23ACC06 /* MASCompositeConstraint.m */; };
+		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 005EF77F15E0F32F5F89D4A455884243 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D325CFE11FE13A075C835E922BE1017 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC677013FEE3B264F023FF342CCD056 /* SVRadialGradientLayer.m */; };
+		1EDFC9A95568AEBE9CAC5978D83499E8 /* NFCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 650477EB89299F702CD907CAFBB82410 /* NFCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F4A13FD6675FCFCD9C19DF350348899 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3A8E69F87C15B786B3D51652A013A /* SVProgressAnimatedView.m */; };
+		25E4DE68793085CD19D35F293417A9E0 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADB5DC4761941898FFD2242C407792F /* CoreNFC.framework */; };
+		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F8BBD8EF1A14BF6BA6F25DDCBF5A78 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF3645AB976418CD1712DF67CD5277F /* NFCReaderWriter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8982904028616DB300430611C61932B4 /* NFCReaderWriter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4151E9CFA129127ECFBC5D1024CC69 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC773A0F8652973F45F6926C9EB547D /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4807B398D6AE5D25AD91436213D456DA /* NFCNDEFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FC91974417D2ECED69F808D0FBE945 /* NFCNDEFReader.m */; };
+		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F945A5051F9A5FF411DCBF2D64EC57 /* MASConstraintMaker.m */; };
+		4DC032894868226AE220360BADB2C237 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F819AA81D4CF8DE514EBD9E9346DF33 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502F0FE6373238E36090AD29AE6B22F4 /* NFCReaderWriter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA68448CE402F89210D1B18E09D1B /* NFCReaderWriter-dummy.m */; };
+		52BCC3B2F8AE7F59556925DEC603C634 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD5890687A76377EC16D8D9F6D55C7 /* SVIndefiniteAnimatedView.m */; };
+		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC674158540746B6BC7602DA602D05 /* MASViewAttribute.m */; };
+		53BECA6AA55F80D63F104475EE6524CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEEB46FAEA7696C2A4114DAC4B23455 /* QuartzCore.framework */; };
+		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 363C90D79A965A3A794CDA2CA966C713 /* MASLayoutConstraint.m */; };
+		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8B236B9EAC6A38ECA631EC2A349E5C /* ViewController+MASAdditions.m */; };
+		588ED67FF93FB4B266AB0130B788E056 /* NFCReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF255E72418D01499DD58420518B26 /* NFCReader.m */; };
+		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F64D69284223EB13B15199044A1473 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67307FFB7CDE8B63B9A9B6B58E8366EC /* NFCReaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D20155B1E40CCB8CDB72D54FA1FFB /* NFCReaderWriter.m */; };
+		6D1E33469FB8FBE812956B0076A7B28F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228CD1CE6EF5D29767444844E9F5F95 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C5B4F7FF1AFF0F9A0C5BD53FB9DF5E /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D354925C64ACF4DBD0F07A85A686E0 /* Foundation.framework */; };
+		798FA71F8CAE44D05016FFF767100375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D354925C64ACF4DBD0F07A85A686E0 /* Foundation.framework */; };
+		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F16B693ED2647B00BEF96B8BD03A9B5 /* MASConstraint.m */; };
+		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311C30457C365C0C5002DA8AA75808B0 /* UIKit.framework */; };
+		83E8FDAD76045FD6359C9ACE35D9EC3A /* NFCReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49962844C51C097D354ED6E536317FA1 /* NFCReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89DF2D9C5EFB02A72EC0CE2138B77F35 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD3246BACA1360408BFB22138B83234 /* SVProgressHUD.m */; };
+		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F32B676E024CAF96627D1484B9BFC3 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A02526A48E5EC81D1F846AB5A97F020 /* SVProgressHUD.bundle */; };
+		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E28ADDB14809E168D1DD0A054EBE /* View+MASAdditions.m */; };
+		A5A89602D49A4C58AB7AA6C155502298 /* NFCReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE8934E73E8110A0DC3FA78BDE85801 /* NFCReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9DAFE892FC31C9684C8C33A5D044E6 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB18F4A26159C504F6865C63950A5B29 /* NFCNDEFWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB850ECB01040B4B63990CC43F75BBE3 /* NFCNDEFWriter.m */; };
+		AF976E2BCAC5ADE4E5C40E259D8F289F /* NFCNDEFReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D034D30E80C1C9D01E61CEE0B60ED6D9 /* NFCNDEFReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EA47370D2D2D8C1520BE4FD8EF5B24 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7885E6656FB7BF63F18088D27F15A78A /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B53CBFFB73A70CFE938B3C4ADD268D /* NFCNDEFWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F030D26A4C402BFFACC1E7B1B0D1EE /* NFCNDEFWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A63233DF1FB54D46B37C4A43DCA9648 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 559844046030915844E1F60C40D5CAD5 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E563C6967A7FD3C2528D53C203540DF1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE41EC21E87E4B5DA0E47084BBCAFDA /* NFCTagReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B86E270DDC8A5250CA3C5A273CE5F /* NFCTagReader.m */; };
+		C15B3F89E6F83DC9CCB14903FC5D80C5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F2988BB47BD6298C7298B0DD192D2810 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1398A6E18AF32E8A927266A0E9034F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EF3560166BAD7EEC4FF3DF0C0BDC3 /* NSArray+MASAdditions.m */; };
+		CAA8FC3769C665767C4C18637E93931E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D354925C64ACF4DBD0F07A85A686E0 /* Foundation.framework */; };
+		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D8B9A210024604371EE243A132093 /* Masonry-dummy.m */; };
+		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F922CBA6B8F7081E36BE61799659145 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D598551C5FA261E45ACE9918E91EFB25 /* NFCReaderWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 278BD35EFA6C24F9DFAFF06E3F4139FC /* NFCReaderWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBBCDB28210322978F67DC1C78ACE04 /* NFCTagReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C0FDCEF94B71BEDFDD2A05DE0DA34B /* NFCTagReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E5A986B7D88A278FED2C429DAE24 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BD55284C41DBD20604EAD38656BB1F13 /* MASViewConstraint.m */; };
+		E70EBA16751054574A227A6432CCE4B0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE654E01F5ABB711BF021250F25334F /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F06EEFF1BF7BFE3A0616E14281005E9A /* Pods-walletLibTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B2F15E9C7DC84CA408879363A8D0FB /* Pods-walletLibTestDemo-dummy.m */; };
+		F77280E74EB91678AA294E66DD6070E2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 523FC0DAF76DA215C25F4A54ED13D060 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFCAC865AA1B314DD75ED2CD6DDC8692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D354925C64ACF4DBD0F07A85A686E0 /* Foundation.framework */; };
+		FFD43D91BF1FA4ADF714D56E7A10B2A8 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FFCEB93F2DE98E1BD8A03B8C59085 /* SVProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7006560E373F48D24934E92EA94145B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3153D1329350B702E037E34741271C1C;
+			remoteInfo = NFCReaderWriter;
+		};
+		DF1750E32B7441269B0B0E8E6B5E9E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		E6682A3D4C8088D981DC07EE827AB88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00599B0D0196439CF5B9235C3DDE0689 /* Pods-walletLibTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-walletLibTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		005EF77F15E0F32F5F89D4A455884243 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		0309E5A986B7D88A278FED2C429DAE24 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		03C3FD293AA31B400541F9DF90A092BB /* Pods-walletLibTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-walletLibTestDemo-umbrella.h"; sourceTree = "<group>"; };
+		0966F40679D4688CA562B9E7E23ACC06 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0AE8934E73E8110A0DC3FA78BDE85801 /* NFCReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCReader.h; path = Sources/NFCReaderWriter/NFCReader.h; sourceTree = "<group>"; };
+		0F922CBA6B8F7081E36BE61799659145 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		10F945A5051F9A5FF411DCBF2D64EC57 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		13FC91974417D2ECED69F808D0FBE945 /* NFCNDEFReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCNDEFReader.m; path = Sources/NFCReaderWriter/NFCNDEFReader.m; sourceTree = "<group>"; };
+		1DC773A0F8652973F45F6926C9EB547D /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		1E1EF3560166BAD7EEC4FF3DF0C0BDC3 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		1E73FBF9ABC68421C53C39B9EDB07C60 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		278BD35EFA6C24F9DFAFF06E3F4139FC /* NFCReaderWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCReaderWriter.h; path = Sources/NFCReaderWriter/NFCReaderWriter.h; sourceTree = "<group>"; };
+		2A02526A48E5EC81D1F846AB5A97F020 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		311C30457C365C0C5002DA8AA75808B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		315FFCEB93F2DE98E1BD8A03B8C59085 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		3228CD1CE6EF5D29767444844E9F5F95 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		34F89E544BCF9B782530BA8356217CF0 /* NFCReaderWriter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCReaderWriter.release.xcconfig; sourceTree = "<group>"; };
+		363C90D79A965A3A794CDA2CA966C713 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		37B2F15E9C7DC84CA408879363A8D0FB /* Pods-walletLibTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-walletLibTestDemo-dummy.m"; sourceTree = "<group>"; };
+		3BD6A3200813AC090440FF972C7E5EAC /* Pods-walletLibTestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-walletLibTestDemo-Info.plist"; sourceTree = "<group>"; };
+		3C782626F9B8AD068BE2787824B5682D /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		42F8BBD8EF1A14BF6BA6F25DDCBF5A78 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		44EA47370D2D2D8C1520BE4FD8EF5B24 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		49962844C51C097D354ED6E536317FA1 /* NFCReaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCReaderDelegate.h; path = Sources/NFCReaderWriter/NFCReaderDelegate.h; sourceTree = "<group>"; };
+		4A8D8B9A210024604371EE243A132093 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		523FC0DAF76DA215C25F4A54ED13D060 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		5277FEE3D03CF74946C562D6DD16FDE4 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		52E257E1F6B5CEB053BA33C49475361C /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		559844046030915844E1F60C40D5CAD5 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		56D354925C64ACF4DBD0F07A85A686E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5731FD74D2C5609383792889F0189BF8 /* NFCReaderWriter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFCReaderWriter; path = NFCReaderWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650477EB89299F702CD907CAFBB82410 /* NFCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCConstants.h; path = Sources/NFCReaderWriter/NFCConstants.h; sourceTree = "<group>"; };
+		66FE0C7966B480DCA0B7BFEF739F6057 /* NFCReaderWriter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReaderWriter-prefix.pch"; sourceTree = "<group>"; };
+		6AC677013FEE3B264F023FF342CCD056 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		6EEA7E5BDC776173EB17AE7F08AA7ABE /* Pods-walletLibTestDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-walletLibTestDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F16B693ED2647B00BEF96B8BD03A9B5 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		7885E6656FB7BF63F18088D27F15A78A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7A63233DF1FB54D46B37C4A43DCA9648 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		7F819AA81D4CF8DE514EBD9E9346DF33 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		820D20155B1E40CCB8CDB72D54FA1FFB /* NFCReaderWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCReaderWriter.m; path = Sources/NFCReaderWriter/NFCReaderWriter.m; sourceTree = "<group>"; };
+		8446820E06C8D21079E7BDD12868E3CA /* NFCReaderWriter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFCReaderWriter.modulemap; sourceTree = "<group>"; };
+		8982904028616DB300430611C61932B4 /* NFCReaderWriter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReaderWriter-umbrella.h"; sourceTree = "<group>"; };
+		8C4151E9CFA129127ECFBC5D1024CC69 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		93051A4B4299C5620111FF18C8CE454A /* Pods-walletLibTestDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-walletLibTestDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94C0FDCEF94B71BEDFDD2A05DE0DA34B /* NFCTagReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCTagReader.h; path = Sources/NFCReaderWriter/NFCTagReader.h; sourceTree = "<group>"; };
+		94F64D69284223EB13B15199044A1473 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		94FD5890687A76377EC16D8D9F6D55C7 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7AF255E72418D01499DD58420518B26 /* NFCReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCReader.m; path = Sources/NFCReaderWriter/NFCReader.m; sourceTree = "<group>"; };
+		AEBFA68448CE402F89210D1B18E09D1B /* NFCReaderWriter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFCReaderWriter-dummy.m"; sourceTree = "<group>"; };
+		AFCA8D07BF4282B56FEC840253726BD2 /* Pods-walletLibTestDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-walletLibTestDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B2FD90055E982089779BBAF9E4CF0F07 /* Pods-walletLibTestDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-walletLibTestDemo"; path = Pods_walletLibTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71AF6DEA1F5F5BC83C098A0EA6488A8 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		B7F5E28ADDB14809E168D1DD0A054EBE /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		BB14EC234C0F8D6C884D5427B5F3AC6D /* Pods-walletLibTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-walletLibTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BD55284C41DBD20604EAD38656BB1F13 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		C6F32B676E024CAF96627D1484B9BFC3 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CA8B236B9EAC6A38ECA631EC2A349E5C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		CADB5DC4761941898FFD2242C407792F /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreNFC.framework; sourceTree = DEVELOPER_DIR; };
+		CD8B86E270DDC8A5250CA3C5A273CE5F /* NFCTagReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCTagReader.m; path = Sources/NFCReaderWriter/NFCTagReader.m; sourceTree = "<group>"; };
+		CE1398A6E18AF32E8A927266A0E9034F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CFD3246BACA1360408BFB22138B83234 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		D034D30E80C1C9D01E61CEE0B60ED6D9 /* NFCNDEFReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCNDEFReader.h; path = Sources/NFCReaderWriter/NFCNDEFReader.h; sourceTree = "<group>"; };
+		D0AF4FFC66AF68869DA29B9A7A454EB8 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		D1B51CD4BDBDC2DA46BBCBDF146E1C39 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		DBEEB46FAEA7696C2A4114DAC4B23455 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DED072210BF9E048DBE7EC8E7905B33A /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		E404F27BBFF1BB5EC04AE064CB0E6218 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E4BC674158540746B6BC7602DA602D05 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		E563C6967A7FD3C2528D53C203540DF1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		E5A3A8E69F87C15B786B3D51652A013A /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E65614B1B277438245D4C43556F011A9 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8576F202139E5E50A07303AAA7EBC4 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		EDB9E18B545F5B83FC363CBFA7AABA68 /* NFCReaderWriter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCReaderWriter.debug.xcconfig; sourceTree = "<group>"; };
+		EDE654E01F5ABB711BF021250F25334F /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		EE9DAFE892FC31C9684C8C33A5D044E6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F0B8CED89F4F7872CA1DF67C7E51D94C /* NFCReaderWriter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFCReaderWriter-Info.plist"; sourceTree = "<group>"; };
+		F2988BB47BD6298C7298B0DD192D2810 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		F4C5B4F7FF1AFF0F9A0C5BD53FB9DF5E /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		F7D3C903677ECF7CC6BADA3536AFA3B1 /* Pods-walletLibTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-walletLibTestDemo.modulemap"; sourceTree = "<group>"; };
+		F8F030D26A4C402BFFACC1E7B1B0D1EE /* NFCNDEFWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFCNDEFWriter.h; path = Sources/NFCReaderWriter/NFCNDEFWriter.h; sourceTree = "<group>"; };
+		FB850ECB01040B4B63990CC43F75BBE3 /* NFCNDEFWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFCNDEFWriter.m; path = Sources/NFCReaderWriter/NFCNDEFWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904714A0F2D8616AA5E280160C378A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCAC865AA1B314DD75ED2CD6DDC8692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B030A2F14616C6AFE7184C0CCBB8EBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4DE68793085CD19D35F293417A9E0 /* CoreNFC.framework in Frameworks */,
+				CAA8FC3769C665767C4C18637E93931E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */,
+				8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E389FF082B036E756B0679583C1BE62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798FA71F8CAE44D05016FFF767100375 /* Foundation.framework in Frameworks */,
+				53BECA6AA55F80D63F104475EE6524CA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0C6DB8A7BE61ACADC59AB2C50E6C50 /* NFCReaderWriter */ = {
+			isa = PBXGroup;
+			children = (
+				650477EB89299F702CD907CAFBB82410 /* NFCConstants.h */,
+				D034D30E80C1C9D01E61CEE0B60ED6D9 /* NFCNDEFReader.h */,
+				13FC91974417D2ECED69F808D0FBE945 /* NFCNDEFReader.m */,
+				F8F030D26A4C402BFFACC1E7B1B0D1EE /* NFCNDEFWriter.h */,
+				FB850ECB01040B4B63990CC43F75BBE3 /* NFCNDEFWriter.m */,
+				0AE8934E73E8110A0DC3FA78BDE85801 /* NFCReader.h */,
+				A7AF255E72418D01499DD58420518B26 /* NFCReader.m */,
+				49962844C51C097D354ED6E536317FA1 /* NFCReaderDelegate.h */,
+				278BD35EFA6C24F9DFAFF06E3F4139FC /* NFCReaderWriter.h */,
+				820D20155B1E40CCB8CDB72D54FA1FFB /* NFCReaderWriter.m */,
+				94C0FDCEF94B71BEDFDD2A05DE0DA34B /* NFCTagReader.h */,
+				CD8B86E270DDC8A5250CA3C5A273CE5F /* NFCTagReader.m */,
+				37759EF78A41541B8DFE07276964798C /* Support Files */,
+			);
+			name = NFCReaderWriter;
+			path = NFCReaderWriter;
+			sourceTree = "<group>";
+		};
+		11E39968913FCCF9B0748C1498945D34 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				7885E6656FB7BF63F18088D27F15A78A /* MASCompositeConstraint.h */,
+				0966F40679D4688CA562B9E7E23ACC06 /* MASCompositeConstraint.m */,
+				E563C6967A7FD3C2528D53C203540DF1 /* MASConstraint.h */,
+				6F16B693ED2647B00BEF96B8BD03A9B5 /* MASConstraint.m */,
+				EE9DAFE892FC31C9684C8C33A5D044E6 /* MASConstraint+Private.h */,
+				005EF77F15E0F32F5F89D4A455884243 /* MASConstraintMaker.h */,
+				10F945A5051F9A5FF411DCBF2D64EC57 /* MASConstraintMaker.m */,
+				42F8BBD8EF1A14BF6BA6F25DDCBF5A78 /* MASLayoutConstraint.h */,
+				363C90D79A965A3A794CDA2CA966C713 /* MASLayoutConstraint.m */,
+				8C4151E9CFA129127ECFBC5D1024CC69 /* Masonry.h */,
+				E65614B1B277438245D4C43556F011A9 /* MASUtilities.h */,
+				F4C5B4F7FF1AFF0F9A0C5BD53FB9DF5E /* MASViewAttribute.h */,
+				E4BC674158540746B6BC7602DA602D05 /* MASViewAttribute.m */,
+				0F922CBA6B8F7081E36BE61799659145 /* MASViewConstraint.h */,
+				BD55284C41DBD20604EAD38656BB1F13 /* MASViewConstraint.m */,
+				C6F32B676E024CAF96627D1484B9BFC3 /* NSArray+MASAdditions.h */,
+				1E1EF3560166BAD7EEC4FF3DF0C0BDC3 /* NSArray+MASAdditions.m */,
+				0309E5A986B7D88A278FED2C429DAE24 /* NSArray+MASShorthandAdditions.h */,
+				559844046030915844E1F60C40D5CAD5 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CE1398A6E18AF32E8A927266A0E9034F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				1DC773A0F8652973F45F6926C9EB547D /* View+MASAdditions.h */,
+				B7F5E28ADDB14809E168D1DD0A054EBE /* View+MASAdditions.m */,
+				94F64D69284223EB13B15199044A1473 /* View+MASShorthandAdditions.h */,
+				44EA47370D2D2D8C1520BE4FD8EF5B24 /* ViewController+MASAdditions.h */,
+				CA8B236B9EAC6A38ECA631EC2A349E5C /* ViewController+MASAdditions.m */,
+				1A82B6F6EDCD0B97E1B54EA3635BF6EC /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1A82B6F6EDCD0B97E1B54EA3635BF6EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF4FFC66AF68869DA29B9A7A454EB8 /* Masonry.modulemap */,
+				4A8D8B9A210024604371EE243A132093 /* Masonry-dummy.m */,
+				5277FEE3D03CF74946C562D6DD16FDE4 /* Masonry-Info.plist */,
+				B71AF6DEA1F5F5BC83C098A0EA6488A8 /* Masonry-prefix.pch */,
+				7A63233DF1FB54D46B37C4A43DCA9648 /* Masonry-umbrella.h */,
+				52E257E1F6B5CEB053BA33C49475361C /* Masonry.debug.xcconfig */,
+				3C782626F9B8AD068BE2787824B5682D /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		37759EF78A41541B8DFE07276964798C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8446820E06C8D21079E7BDD12868E3CA /* NFCReaderWriter.modulemap */,
+				AEBFA68448CE402F89210D1B18E09D1B /* NFCReaderWriter-dummy.m */,
+				F0B8CED89F4F7872CA1DF67C7E51D94C /* NFCReaderWriter-Info.plist */,
+				66FE0C7966B480DCA0B7BFEF739F6057 /* NFCReaderWriter-prefix.pch */,
+				8982904028616DB300430611C61932B4 /* NFCReaderWriter-umbrella.h */,
+				EDB9E18B545F5B83FC363CBFA7AABA68 /* NFCReaderWriter.debug.xcconfig */,
+				34F89E544BCF9B782530BA8356217CF0 /* NFCReaderWriter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NFCReaderWriter";
+			sourceTree = "<group>";
+		};
+		48CFABD75654386476592CA01D59803D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCC21B5520F745E663580BA4CBDEE5 /* Pods-walletLibTestDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A5B3C8ABC5AC6DA4559D69AAA3DD746 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A02526A48E5EC81D1F846AB5A97F020 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		881C2BDE44A71AF55EDA9D99B931D88B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E39968913FCCF9B0748C1498945D34 /* Masonry */,
+				0F0C6DB8A7BE61ACADC59AB2C50E6C50 /* NFCReaderWriter */,
+				AD0906F0069BE0778280EF6C177B4853 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		913862E01DCD696978BD6B3D7FC5B3F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1B51CD4BDBDC2DA46BBCBDF146E1C39 /* SVProgressHUD.modulemap */,
+				315FFCEB93F2DE98E1BD8A03B8C59085 /* SVProgressHUD-dummy.m */,
+				ED8576F202139E5E50A07303AAA7EBC4 /* SVProgressHUD-Info.plist */,
+				E404F27BBFF1BB5EC04AE064CB0E6218 /* SVProgressHUD-prefix.pch */,
+				7F819AA81D4CF8DE514EBD9E9346DF33 /* SVProgressHUD-umbrella.h */,
+				DED072210BF9E048DBE7EC8E7905B33A /* SVProgressHUD.debug.xcconfig */,
+				1E73FBF9ABC68421C53C39B9EDB07C60 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		9609FD6009CB62B8C1FBDADB2ABE3151 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CADB5DC4761941898FFD2242C407792F /* CoreNFC.framework */,
+				56D354925C64ACF4DBD0F07A85A686E0 /* Foundation.framework */,
+				DBEEB46FAEA7696C2A4114DAC4B23455 /* QuartzCore.framework */,
+				311C30457C365C0C5002DA8AA75808B0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABDCC21B5520F745E663580BA4CBDEE5 /* Pods-walletLibTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3C903677ECF7CC6BADA3536AFA3B1 /* Pods-walletLibTestDemo.modulemap */,
+				93051A4B4299C5620111FF18C8CE454A /* Pods-walletLibTestDemo-acknowledgements.markdown */,
+				6EEA7E5BDC776173EB17AE7F08AA7ABE /* Pods-walletLibTestDemo-acknowledgements.plist */,
+				37B2F15E9C7DC84CA408879363A8D0FB /* Pods-walletLibTestDemo-dummy.m */,
+				AFCA8D07BF4282B56FEC840253726BD2 /* Pods-walletLibTestDemo-frameworks.sh */,
+				3BD6A3200813AC090440FF972C7E5EAC /* Pods-walletLibTestDemo-Info.plist */,
+				03C3FD293AA31B400541F9DF90A092BB /* Pods-walletLibTestDemo-umbrella.h */,
+				00599B0D0196439CF5B9235C3DDE0689 /* Pods-walletLibTestDemo.debug.xcconfig */,
+				BB14EC234C0F8D6C884D5427B5F3AC6D /* Pods-walletLibTestDemo.release.xcconfig */,
+			);
+			name = "Pods-walletLibTestDemo";
+			path = "Target Support Files/Pods-walletLibTestDemo";
+			sourceTree = "<group>";
+		};
+		AD0906F0069BE0778280EF6C177B4853 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EDE654E01F5ABB711BF021250F25334F /* SVIndefiniteAnimatedView.h */,
+				94FD5890687A76377EC16D8D9F6D55C7 /* SVIndefiniteAnimatedView.m */,
+				523FC0DAF76DA215C25F4A54ED13D060 /* SVProgressAnimatedView.h */,
+				E5A3A8E69F87C15B786B3D51652A013A /* SVProgressAnimatedView.m */,
+				F2988BB47BD6298C7298B0DD192D2810 /* SVProgressHUD.h */,
+				CFD3246BACA1360408BFB22138B83234 /* SVProgressHUD.m */,
+				3228CD1CE6EF5D29767444844E9F5F95 /* SVRadialGradientLayer.h */,
+				6AC677013FEE3B264F023FF342CCD056 /* SVRadialGradientLayer.m */,
+				7A5B3C8ABC5AC6DA4559D69AAA3DD746 /* Resources */,
+				913862E01DCD696978BD6B3D7FC5B3F5 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9609FD6009CB62B8C1FBDADB2ABE3151 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				881C2BDE44A71AF55EDA9D99B931D88B /* Pods */,
+				E6C085819B194156BAAC30668AAEC630 /* Products */,
+				48CFABD75654386476592CA01D59803D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E6C085819B194156BAAC30668AAEC630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				5731FD74D2C5609383792889F0189BF8 /* NFCReaderWriter */,
+				B2FD90055E982089779BBAF9E4CF0F07 /* Pods-walletLibTestDemo */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66684C87C05B695D74826ED94917436C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDFC9A95568AEBE9CAC5978D83499E8 /* NFCConstants.h in Headers */,
+				AF976E2BCAC5ADE4E5C40E259D8F289F /* NFCNDEFReader.h in Headers */,
+				B5B53CBFFB73A70CFE938B3C4ADD268D /* NFCNDEFWriter.h in Headers */,
+				A5A89602D49A4C58AB7AA6C155502298 /* NFCReader.h in Headers */,
+				83E8FDAD76045FD6359C9ACE35D9EC3A /* NFCReaderDelegate.h in Headers */,
+				D598551C5FA261E45ACE9918E91EFB25 /* NFCReaderWriter.h in Headers */,
+				2EF3645AB976418CD1712DF67CD5277F /* NFCReaderWriter-umbrella.h in Headers */,
+				DDBBCDB28210322978F67DC1C78ACE04 /* NFCTagReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE9E7B34EB24769860A549107B4F04C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70EBA16751054574A227A6432CCE4B0 /* SVIndefiniteAnimatedView.h in Headers */,
+				F77280E74EB91678AA294E66DD6070E2 /* SVProgressAnimatedView.h in Headers */,
+				C15B3F89E6F83DC9CCB14903FC5D80C5 /* SVProgressHUD.h in Headers */,
+				4DC032894868226AE220360BADB2C237 /* SVProgressHUD-umbrella.h in Headers */,
+				6D1E33469FB8FBE812956B0076A7B28F /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A8659D86DFD4C224D177332D003EDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */,
+				BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */,
+				A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */,
+				1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */,
+				2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */,
+				31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */,
+				B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */,
+				0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */,
+				715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */,
+				CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */,
+				8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */,
+				E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */,
+				61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */,
+				B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA296A2EA4419F491F5724D08F96943 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01734E7E052A54C38CB536D8FA631250 /* Pods-walletLibTestDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807FEF9D9629A72728B6B83F5CA12C85 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				6DE9E7B34EB24769860A549107B4F04C /* Headers */,
+				108B36464ADE4902E2E2C83461767402 /* Sources */,
+				E389FF082B036E756B0679583C1BE62E /* Frameworks */,
+				A4CCC3CC21F770E272C54B18DDDE6DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		3153D1329350B702E037E34741271C1C /* NFCReaderWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78841AD963370D9EF84F6DEED578F33 /* Build configuration list for PBXNativeTarget "NFCReaderWriter" */;
+			buildPhases = (
+				66684C87C05B695D74826ED94917436C /* Headers */,
+				C8F1CEA413BBAA5981B31987C1DDCF13 /* Sources */,
+				B030A2F14616C6AFE7184C0CCBB8EBC2 /* Frameworks */,
+				91120F9E7FD73C9BAED322EEC67FB63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCReaderWriter;
+			productName = NFCReaderWriter;
+			productReference = 5731FD74D2C5609383792889F0189BF8 /* NFCReaderWriter */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				99A8659D86DFD4C224D177332D003EDC /* Headers */,
+				3003736003A11F9793D9EA6DC169AED7 /* Sources */,
+				CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */,
+				4522D50300D635138BEDBF5E60D39B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6D6BC1CF586F0A2F9EA9A947F45C3B5 /* Pods-walletLibTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B03AD04D7D34D7FBDEB5071943D79D4 /* Build configuration list for PBXNativeTarget "Pods-walletLibTestDemo" */;
+			buildPhases = (
+				EBA296A2EA4419F491F5724D08F96943 /* Headers */,
+				29453FFD2A4BCA4C773A61395EF29B51 /* Sources */,
+				904714A0F2D8616AA5E280160C378A55 /* Frameworks */,
+				DE474A4BC8662D0EBFE44D0578A0F3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74FA3085E828A2E66DCC931D0DDD4FB3 /* PBXTargetDependency */,
+				3A58414FE3524B636C3AC9D06EB706EE /* PBXTargetDependency */,
+				D5286A7C21FCC85A4408F2B860A3EB99 /* PBXTargetDependency */,
+			);
+			name = "Pods-walletLibTestDemo";
+			productName = Pods_walletLibTestDemo;
+			productReference = B2FD90055E982089779BBAF9E4CF0F07 /* Pods-walletLibTestDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E6C085819B194156BAAC30668AAEC630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				3153D1329350B702E037E34741271C1C /* NFCReaderWriter */,
+				C6D6BC1CF586F0A2F9EA9A947F45C3B5 /* Pods-walletLibTestDemo */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91120F9E7FD73C9BAED322EEC67FB63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CCC3CC21F770E272C54B18DDDE6DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE474A4BC8662D0EBFE44D0578A0F3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108B36464ADE4902E2E2C83461767402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BCC3B2F8AE7F59556925DEC603C634 /* SVIndefiniteAnimatedView.m in Sources */,
+				1F4A13FD6675FCFCD9C19DF350348899 /* SVProgressAnimatedView.m in Sources */,
+				89DF2D9C5EFB02A72EC0CE2138B77F35 /* SVProgressHUD.m in Sources */,
+				FFD43D91BF1FA4ADF714D56E7A10B2A8 /* SVProgressHUD-dummy.m in Sources */,
+				1D325CFE11FE13A075C835E922BE1017 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29453FFD2A4BCA4C773A61395EF29B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06EEFF1BF7BFE3A0616E14281005E9A /* Pods-walletLibTestDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3003736003A11F9793D9EA6DC169AED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */,
+				7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */,
+				4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */,
+				54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */,
+				CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */,
+				53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */,
+				E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */,
+				C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */,
+				C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */,
+				567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F1CEA413BBAA5981B31987C1DDCF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807B398D6AE5D25AD91436213D456DA /* NFCNDEFReader.m in Sources */,
+				AB18F4A26159C504F6865C63950A5B29 /* NFCNDEFWriter.m in Sources */,
+				588ED67FF93FB4B266AB0130B788E056 /* NFCReader.m in Sources */,
+				67307FFB7CDE8B63B9A9B6B58E8366EC /* NFCReaderWriter.m in Sources */,
+				502F0FE6373238E36090AD29AE6B22F4 /* NFCReaderWriter-dummy.m in Sources */,
+				BEE41EC21E87E4B5DA0E47084BBCAFDA /* NFCTagReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A58414FE3524B636C3AC9D06EB706EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCReaderWriter;
+			target = 3153D1329350B702E037E34741271C1C /* NFCReaderWriter */;
+			targetProxy = 7006560E373F48D24934E92EA94145B3 /* PBXContainerItemProxy */;
+		};
+		74FA3085E828A2E66DCC931D0DDD4FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = E6682A3D4C8088D981DC07EE827AB88C /* PBXContainerItemProxy */;
+		};
+		D5286A7C21FCC85A4408F2B860A3EB99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = DF1750E32B7441269B0B0E8E6B5E9E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		081E9FB060B0756341772CAE0256D3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E73FBF9ABC68421C53C39B9EDB07C60 /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C562F7D32365CBAEE0F71BCE0929497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00599B0D0196439CF5B9235C3DDE0689 /* Pods-walletLibTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-walletLibTestDemo/Pods-walletLibTestDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-walletLibTestDemo/Pods-walletLibTestDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		574336E93FEE5E80463961C3B5210418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E257E1F6B5CEB053BA33C49475361C /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F71B01132E907D47005AD4043071866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F89E544BCF9B782530BA8356217CF0 /* NFCReaderWriter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCReaderWriter/NFCReaderWriter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter.modulemap";
+				PRODUCT_MODULE_NAME = NFCReaderWriter;
+				PRODUCT_NAME = NFCReaderWriter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83A1CD5A0D744E6C5C16EB552F459A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C782626F9B8AD068BE2787824B5682D /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99346580EED0B7C0BCBF768CDDEFCA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB14EC234C0F8D6C884D5427B5F3AC6D /* Pods-walletLibTestDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-walletLibTestDemo/Pods-walletLibTestDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-walletLibTestDemo/Pods-walletLibTestDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C4BAFB5DA5D536CF5510DA285F9F45D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB9E18B545F5B83FC363CBFA7AABA68 /* NFCReaderWriter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCReaderWriter/NFCReaderWriter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NFCReaderWriter/NFCReaderWriter.modulemap";
+				PRODUCT_MODULE_NAME = NFCReaderWriter;
+				PRODUCT_NAME = NFCReaderWriter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8833FEAD050602E405E2DA4DB49ECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED072210BF9E048DBE7EC8E7905B33A /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B03AD04D7D34D7FBDEB5071943D79D4 /* Build configuration list for PBXNativeTarget "Pods-walletLibTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C562F7D32365CBAEE0F71BCE0929497 /* Debug */,
+				99346580EED0B7C0BCBF768CDDEFCA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574336E93FEE5E80463961C3B5210418 /* Debug */,
+				83A1CD5A0D744E6C5C16EB552F459A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807FEF9D9629A72728B6B83F5CA12C85 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8833FEAD050602E405E2DA4DB49ECA6 /* Debug */,
+				081E9FB060B0756341772CAE0256D3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78841AD963370D9EF84F6DEED578F33 /* Build configuration list for PBXNativeTarget "NFCReaderWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BAFB5DA5D536CF5510DA285F9F45D9 /* Debug */,
+				5F71B01132E907D47005AD4043071866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

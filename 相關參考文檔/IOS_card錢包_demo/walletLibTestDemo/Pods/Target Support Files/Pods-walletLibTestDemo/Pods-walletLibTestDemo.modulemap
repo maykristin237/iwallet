@@ -1,0 +1,6 @@
+framework module Pods_walletLibTestDemo {
+  umbrella header "Pods-walletLibTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

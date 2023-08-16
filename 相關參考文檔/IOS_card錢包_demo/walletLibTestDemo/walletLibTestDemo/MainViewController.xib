@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKa-xh-zxX">
+                    <rect key="frame" x="196" y="59" width="1" height="759"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="4g0-tr-8hN"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udk-PQ-hzF">
+                    <rect key="frame" x="46" y="99" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="GSk-Hd-wli"/>
+                        <constraint firstAttribute="height" constant="45" id="RIn-M3-Poz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="创建钱包BTC"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="QHu-ED-Kjr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xc8-oA-l5l">
+                    <rect key="frame" x="46" y="164" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="QxS-Za-VjM"/>
+                        <constraint firstAttribute="width" constant="130" id="ZqT-Nw-rRS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="助记词导入BTC"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="txG-dA-a3R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7S-we-EXC">
+                    <rect key="frame" x="46" y="229" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="3bB-W8-xCz"/>
+                        <constraint firstAttribute="height" constant="45" id="4MW-of-IUP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="私钥导入BTC"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="m6d-BI-DQT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JM0-1J-I4V">
+                    <rect key="frame" x="217" y="99" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Dkk-0e-BOT"/>
+                        <constraint firstAttribute="width" constant="130" id="dqO-TV-EgI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="创建钱包ETH"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="xdZ-XN-n5O"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSq-HB-0oQ">
+                    <rect key="frame" x="46" y="294" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="B5W-4B-8IU"/>
+                        <constraint firstAttribute="height" constant="45" id="rat-B6-Pja"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="交易签名BTC"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="StM-xo-wJT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGZ-rG-7to">
+                    <rect key="frame" x="217" y="164" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="1FL-ox-j4j"/>
+                        <constraint firstAttribute="height" constant="45" id="tAG-Pu-ldn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="助记词导入ETH"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="cj5-Qy-V7K"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdQ-sc-UMa">
+                    <rect key="frame" x="217" y="229" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="FxF-RD-FLs"/>
+                        <constraint firstAttribute="height" constant="45" id="Oiz-Il-CgM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="私钥导入ETH"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="feV-JG-0QT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIH-tb-Re2">
+                    <rect key="frame" x="217" y="294" width="130" height="45"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="BpT-Rx-nq1"/>
+                        <constraint firstAttribute="width" constant="130" id="q0u-hO-42A"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="交易签名ETH"/>
+                    <connections>
+                        <action selector="ButtonClick:" destination="-1" eventType="touchUpInside" id="pw8-If-kaW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="vKa-xh-zxX" secondAttribute="bottom" id="293-Ua-vLi"/>
+                <constraint firstItem="vKa-xh-zxX" firstAttribute="leading" secondItem="Udk-PQ-hzF" secondAttribute="trailing" constant="20" id="7kG-We-RHx"/>
+                <constraint firstItem="JM0-1J-I4V" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="9Ko-z9-TyB"/>
+                <constraint firstItem="oGZ-rG-7to" firstAttribute="top" secondItem="JM0-1J-I4V" secondAttribute="bottom" constant="20" id="A4L-0R-tDm"/>
+                <constraint firstItem="vKa-xh-zxX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DAj-qr-WQS"/>
+                <constraint firstItem="HdQ-sc-UMa" firstAttribute="leading" secondItem="vKa-xh-zxX" secondAttribute="trailing" constant="20" id="DQf-AR-0aG"/>
+                <constraint firstItem="xc8-oA-l5l" firstAttribute="top" secondItem="Udk-PQ-hzF" secondAttribute="bottom" constant="20" id="IlP-8d-y4f"/>
+                <constraint firstItem="Udk-PQ-hzF" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="KYa-H3-4cT"/>
+                <constraint firstItem="oGZ-rG-7to" firstAttribute="leading" secondItem="vKa-xh-zxX" secondAttribute="trailing" constant="20" id="Sgs-rD-H2c"/>
+                <constraint firstItem="vKa-xh-zxX" firstAttribute="leading" secondItem="xc8-oA-l5l" secondAttribute="trailing" constant="20" id="WA9-9b-KLG"/>
+                <constraint firstItem="JM0-1J-I4V" firstAttribute="leading" secondItem="vKa-xh-zxX" secondAttribute="trailing" constant="20" id="Xre-a5-Tph"/>
+                <constraint firstItem="NSq-HB-0oQ" firstAttribute="top" secondItem="w7S-we-EXC" secondAttribute="bottom" constant="20" id="ZcR-6B-wsc"/>
+                <constraint firstItem="vKa-xh-zxX" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="ZmE-tG-IQL"/>
+                <constraint firstItem="SIH-tb-Re2" firstAttribute="leading" secondItem="vKa-xh-zxX" secondAttribute="trailing" constant="20" id="aqJ-Yn-aAl"/>
+                <constraint firstItem="vKa-xh-zxX" firstAttribute="leading" secondItem="w7S-we-EXC" secondAttribute="trailing" constant="20" id="h1z-Kg-BH9"/>
+                <constraint firstItem="w7S-we-EXC" firstAttribute="top" secondItem="xc8-oA-l5l" secondAttribute="bottom" constant="20" id="hKL-lE-z5C"/>
+                <constraint firstItem="HdQ-sc-UMa" firstAttribute="top" secondItem="oGZ-rG-7to" secondAttribute="bottom" constant="20" id="qOY-hK-pDF"/>
+                <constraint firstItem="vKa-xh-zxX" firstAttribute="leading" secondItem="NSq-HB-0oQ" secondAttribute="trailing" constant="20" id="v8a-vj-5tW"/>
+                <constraint firstItem="SIH-tb-Re2" firstAttribute="top" secondItem="HdQ-sc-UMa" secondAttribute="bottom" constant="20" id="yiG-ZY-1TE"/>
+            </constraints>
+            <point key="canvasLocation" x="55.725190839694655" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

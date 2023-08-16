@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - NFCReaderWriter (1.1.4)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Masonry
+  - NFCReaderWriter
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - NFCReaderWriter
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  NFCReaderWriter: b21965d1b3b8c53f7648f58f597b77a13f6ecdc5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: a7595480c46256ee5a9efc79f6d9c7993f71be0b
+
+COCOAPODS: 1.11.3
