@@ -7,10 +7,10 @@
 #### 軟體模組
 創建--類型--助記詞--NFC寫入儲存--主頁  
 導入--私密金鑰導入--NFC讀取--主頁  
-    --助記詞導入--輸入肋記詞--NFC寫入儲存--主頁  
+    --助記詞導入--輸入肋記詞--NFC寫入儲存--主頁  
 
 主頁--資產--資產列表--轉帳--收款  
-    --我的--交易記錄--回饋--重置--語言切換--關於  
+    --我的--交易記錄--回饋--重置--語言切換--關於  
 
 #### 工具包
 
@@ -40,7 +40,7 @@
 
 1.  創建錢包  
     Future<dynamic> createWallet(bool isBtc, bool isMainNet, String psw) {  
-      return WalletKitPlatform.instance.createWallet(isBtc: isBtc, isMainNet: isMainNet, psw: psw);  
+    return WalletKitPlatform.instance.createWallet(isBtc: isBtc, isMainNet: isMainNet, psw: psw);  
     }  
 3.  私密金鑰導入錢包 var bytes = utf8.encode(password);  
     Future<dynamic> importWalletByPrivateKey(bool isBtc, bool isMainNet, String psw, List<int> privateKey, List<int> deviceId, String prvKeyStr, String devIdStr) {  
