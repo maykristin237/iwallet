@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path path="Android/data/packagename/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+</paths>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<external-path name="fsapp" path="Download" />-->
+
+<!--表示:"/storage/emulated/0/etf_update/temp1"-->
+<!--<external-path name="lezeEth" path="etf_update/temp1" />-->
+<!--<files-path name="files_path" path="." />-->

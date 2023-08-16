@@ -1,0 +1,52 @@
+group 'com.wk.wallet_kit'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+        flatDir {
+            dirs project(':wallet_kit').file('libs')
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+    }
+}
+
+dependencies {
+    //注意: walletsdk-V0.1 需要只添加下面一条依赖
+    implementation 'com.github.consenlabs:token-core-android:v0.1'
+
+    api(name:"walletsdk-V0.1", ext:"aar")
+    api(name:"hardware_lib-V0.1", ext:"aar")
+}
