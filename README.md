@@ -47,7 +47,7 @@
     }  
 3.  私密金鑰導入錢包 var bytes = utf8.encode(password);  
     Future<dynamic> importWalletByPrivateKey(bool isBtc, bool isMainNet, String psw, List<int> privateKey, List<int> deviceId, String prvKeyStr, String devIdStr) {  
-        return WalletKitPlatform.instance.importWalletByPrivateKey(
+        return WalletKitPlatform.instance.importWalletByPrivateKey(  
         isBtc: isBtc,  
         isMainNet: isMainNet,  
         psw: psw,  
