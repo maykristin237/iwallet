@@ -39,18 +39,18 @@
 #### 相關介面
 
 1.  創建錢包
-	Future<dynamic> createWallet(bool isBtc, bool isMainNet, String psw) {
+    Future<dynamic> createWallet(bool isBtc, bool isMainNet, String psw) {
       return WalletKitPlatform.instance.createWallet(isBtc: isBtc, isMainNet: isMainNet, psw: psw);
-	}
-2.  私密金鑰導入錢包 var bytes = utf8.encode(password);
+    }
+3.  私密金鑰導入錢包 var bytes = utf8.encode(password);
     Future<dynamic> importWalletByPrivateKey(bool isBtc, bool isMainNet, String psw, List<int> privateKey, List<int> deviceId, String prvKeyStr, String devIdStr) {
       return WalletKitPlatform.instance.importWalletByPrivateKey(isBtc: isBtc, isMainNet: isMainNet, psw: psw, privateKey: privateKey, deviceId: deviceId, prvKeyStr: prvKeyStr, devIdStr: devIdStr);
     }
-3.  助記詞導入錢包
+5.  助記詞導入錢包
     Future<dynamic> importWalletByMnemonic(bool isBtc, bool isMainNet, String psw, List<String> mnemonics) {
       return WalletKitPlatform.instance.importWalletByMnemonic(isBtc: isBtc, isMainNet: isMainNet, psw: psw, mnemonics: mnemonics);
     }
-4.  交易簽名 BTC需要address參數  utxo => String txHash, int vout, num amount, String address, String scriptPubKey, String derivedPath
+6.  交易簽名 BTC需要address參數  utxo => String txHash, int vout, num amount, String address, String scriptPubKey, String derivedPath
     Future<dynamic> transactionSignBtc(bool isBtc, bool isMainNet, String psw, String address, List<int> privateKey, List<int> deviceId, String prvKeyStr, String devIdStr,
         int changeIdx, String amount, String fee, List<Map> utxo) {
       return WalletKitPlatform.instance.transactionSignBtc(
@@ -67,7 +67,7 @@
           fee: fee,
           utxo: utxo);
     }
-5.  交易簽名 ETH
+7.  交易簽名 ETH
     Future<dynamic> transactionSignEth(bool isBtc, bool isMainNet, String psw, String address, List<int> privateKey, List<int> deviceId, String prvKeyStr, String devIdStr,
         String nonce, String gasPrice, String gasLimit, String to, String value, String data) {
       return WalletKitPlatform.instance.transactionSignEth(
@@ -86,11 +86,11 @@
           value: value,
           data: data);
     }
-6.  創建錢包時用到 tagId, cardPayload, privateKey 需要16進制 Hex
+8.  創建錢包時用到 tagId, cardPayload, privateKey 需要16進制 Hex
     Future<dynamic> encPrivateKey(String tagId, String cardPayload, String privateKey, String psw, bool overwrite, List<int> other) {
       return WalletKitPlatform.instance.encPrivateKey(tagId: tagId, cardPayload: cardPayload, privateKey: privateKey, psw: psw, overwrite: overwrite, other: other);
     }
-7.  重置卡片時用到 tagId, deviceSn 需要16進制 Hex
+9.  重置卡片時用到 tagId, deviceSn 需要16進制 Hex
     Future<dynamic> encDeviceFactoryInfo(String tagId, String deviceSn) {
       return WalletKitPlatform.instance.encDeviceFactoryInfo(tagId: tagId, deviceSn: deviceSn);
     }
